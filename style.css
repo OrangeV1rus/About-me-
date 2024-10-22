@@ -1,10 +1,9 @@
-/* Apply a background color */
 body {
     background-color: rgb(173, 173, 173);
-    font-family: 'Roboto', sans-serif; /* Use the Google Font */
+    font-family: 'Roboto', sans-serif; 
 }
 
-/* Style the main heading */
+
 h1 {
     font-size: 90px;
     font-family: 'Roboto', sans-serif;
@@ -15,35 +14,44 @@ h2{
     font-family: 'Roboto', sans-serif;
 }
 
-/* Style the subheading */
+
 h5 {
     font-size: 25px;
 }
 
-/* Style the section headers */
+
 h2 {
     font-size: 25px;
 }
 
-/* Button (clickable div) styling */
+.click a {
+    text-decoration: none; 
+    color: black; 
+}
+
 .click {
     background-color: rgba(177, 174, 174, 0.275);
     transition: all .2s ease-in-out;
     padding: 15px;
     margin: 40px;
-    border-radius: 15px; /* Rounded corners */
-    text-align: center;  /* Center the text */
-    font-family: 'Roboto', sans-serif; /* Apply Google Font */
+    border-radius: 15px; 
+    text-align: center;  
+    font-family: 'Roboto', sans-serif; 
     max-width: 300px;
 }
 
-/* Hover effect for buttons */
+.click:hover a {
+    color: white; 
+}
+
 .click:hover {
     background-color: rgb(74, 194, 194);
     padding: 15px;
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
 
 
 
